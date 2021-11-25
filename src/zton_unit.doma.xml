@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZTON_UNIT</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Domäne für Einheit</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZTON_UNIT</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>ST</DOMVALUE_L>
+     <DDTEXT>Stück</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZTON_UNIT</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>L</DOMVALUE_L>
+     <DDTEXT>Liter</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZTON_UNIT</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>KG</DOMVALUE_L>
+     <DDTEXT>Kilogramm</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZTON_UNIT</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>T</DOMVALUE_L>
+     <DDTEXT>Tonne</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZTON_UNIT</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>M3</DOMVALUE_L>
+     <DDTEXT>Kubikmeter</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

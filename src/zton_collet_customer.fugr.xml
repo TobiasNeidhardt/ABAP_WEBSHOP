@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Funktionsgruppe Collect Customer</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZTON_COLLET_CUSTOMERTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZTON_COLLET_CUSTOMER</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZTON_ADD_CUSTOMER</FUNCNAME>
+     <SHORT_TEXT>Fügt Kunden zur Datenbanktabelle hinzu</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_CUSTOMER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZTON_CUSTOMER</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_CUSTOMER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabelle mit Kundendaten</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZTON_SHOW_CUSTOMER_LIST</FUNCNAME>
+     <SHORT_TEXT>Zeigt alle Kundeneinträge</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

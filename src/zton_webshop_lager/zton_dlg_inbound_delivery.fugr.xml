@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Funktionsgruppe Inbound Delivery Dialog</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZTON_DLG_INBOUND_DELIVERYI01</SOBJ_NAME>
+    <SOBJ_NAME>LZTON_DLG_INBOUND_DELIVERYI02</SOBJ_NAME>
+    <SOBJ_NAME>LZTON_DLG_INBOUND_DELIVERYI03</SOBJ_NAME>
+    <SOBJ_NAME>LZTON_DLG_INBOUND_DELIVERYI04</SOBJ_NAME>
+    <SOBJ_NAME>LZTON_DLG_INBOUND_DELIVERYO01</SOBJ_NAME>
+    <SOBJ_NAME>LZTON_DLG_INBOUND_DELIVERYO02</SOBJ_NAME>
+    <SOBJ_NAME>LZTON_DLG_INBOUND_DELIVERYTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZTON_DLG_INBOUND_DELIVERY</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZTON_DLG_PUTAWAY_ARTICLE</FUNCNAME>
+     <SHORT_TEXT>Entfernt gescanten Artikel</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IO_VIEW</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>REF TO ZCL_TON_INBOUND_DELIVERY_VIEW</TYP>
+       <REF_CLASS>X</REF_CLASS>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IO_VIEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>View class inbound delivery</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZTON_DLG_PUTAWAY_QUANTITY</FUNCNAME>
+     <SHORT_TEXT>Call screen putaway quantity</SHORT_TEXT>
+    </item>
+    <item>
+     <FUNCNAME>ZTON_DLG_PUTAWAY_STORAGE_PLACE</FUNCNAME>
+     <SHORT_TEXT>Call screen putaway storage place</SHORT_TEXT>
+    </item>
+    <item>
+     <FUNCNAME>ZTON_INBOUND_DELIVERY_LOGIN</FUNCNAME>
+     <SHORT_TEXT>Ruft Login Screen auf</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IO_VIEW</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>REF TO ZCL_TON_INBOUND_DELIVERY_VIEW</TYP>
+       <REF_CLASS>X</REF_CLASS>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IO_VIEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>View class inbound delivery</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
